@@ -1,0 +1,55 @@
+# Directories #
+/build/
+/bin/
+target/
+
+# OS Files #
+.DS_Store
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.db
+
+# Eclipse #
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+local.properties
+/src/main/resources/rebel.xml
+
+# Intellj User-specific stuff:
+.idea/**
+
+# gradle
+.gradle/**
+gradle/**
+
+## File-based project format:
+*.iws
+
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties

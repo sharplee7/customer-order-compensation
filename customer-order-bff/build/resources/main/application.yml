@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /customer-order/bff
+
+spring:
+  application:
+    name : customer-order-bff
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: 'true'

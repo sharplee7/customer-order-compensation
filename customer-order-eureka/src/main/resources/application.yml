@@ -1,0 +1,22 @@
+eureka:
+  client:
+    fetch-registry: 'false'
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: 'true'
+  server:
+    enableSelfPreservation: 'false'
+    response-cache-update-interval-ms: 1000
+logging:
+  level:
+    com:
+      netflix:
+        discovery: 'OFF'
+        eureka: 'OFF'
+server:
+  port: 8761
+spring:
+  application:
+    name: customer-order-eureka
