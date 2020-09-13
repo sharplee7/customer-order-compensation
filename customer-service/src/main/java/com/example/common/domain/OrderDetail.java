@@ -1,23 +1,14 @@
 package com.example.common.domain;
 
 
-import javax.persistence.*;
 
-//@Entity(name = "learningtest.org.hibernate.tutorial.annotations.Event")
 
-//@Entity(name = "learningtest.org.hibernate.tutorial.em.Event")
-@Entity(name = "com.example.common.domain.OrderDetail")
-@Table(name="orders")
-@Access(AccessType.FIELD)
 public class OrderDetail {
 
-  @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   private OrderState state;
 
-  @Embedded
   private OrderDetails orderDetails;
 
   public OrderDetail() {

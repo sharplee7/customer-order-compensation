@@ -1,14 +1,10 @@
 package com.example.customer.domain;
 
-
-
-
 import com.example.common.domain.Money;
 
 import javax.persistence.*;
 import java.util.Collections;
 import java.util.Map;
-
 
 @Entity
 @Table(name="Customer")
