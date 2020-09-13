@@ -1,3 +1,3 @@
-package com.example.customer.domain.common;
+package com.example.common.domain;
 
 public enum OrderState { PENDING, APPROVED, REJECTED }

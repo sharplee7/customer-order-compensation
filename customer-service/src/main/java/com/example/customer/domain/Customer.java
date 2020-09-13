@@ -3,7 +3,7 @@ package com.example.customer.domain;
 
 
 
-import com.example.customer.domain.common.Money;
+import com.example.common.domain.Money;
 
 import javax.persistence.*;
 import java.util.Collections;

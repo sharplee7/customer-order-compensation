@@ -8,7 +8,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.util.concurrent.ListenableFutureCallback;
-import com.example.customer.domain.common.OrderDetail;
+import com.example.common.domain.OrderDetail;
 
 public class CustomerProducer {
     @Autowired

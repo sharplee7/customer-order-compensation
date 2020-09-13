@@ -1,4 +1,4 @@
-package com.example.customer.domain.common;
+package com.example.common.domain;
 
 import javax.persistence.Embeddable;
 import javax.persistence.Embedded;

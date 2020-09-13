@@ -1,7 +1,7 @@
 package com.example.order.webapi;
 
 
-import com.example.order.domain.common.Money;
+import com.example.common.domain.Money;
 
 public class CreateOrderRequest {
   private Money orderTotal;

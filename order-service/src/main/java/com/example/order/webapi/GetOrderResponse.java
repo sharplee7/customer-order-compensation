@@ -1,7 +1,7 @@
 package com.example.order.webapi;
 
 
-import com.example.order.domain.common.OrderState;
+import com.example.common.domain.OrderState;
 
 public class GetOrderResponse {
   private Long orderId;

@@ -14,7 +14,7 @@ import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
-import com.example.customer.domain.common.OrderDetail;
+import com.example.common.domain.OrderDetail;
 
 
 @Configuration

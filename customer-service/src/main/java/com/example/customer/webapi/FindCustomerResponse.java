@@ -1,8 +1,5 @@
 package com.example.customer.webapi;
 
-import com.example.customer.domain.Customer;
-import com.example.customer.domain.common.Money;
-
 public class FindCustomerResponse {
     private Long id;
 

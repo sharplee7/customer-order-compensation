@@ -1,10 +1,10 @@
-package com.example.order.domain.common;
+package com.example.common.domain;
 
 
 import javax.persistence.*;
 
 
-@Entity(name="com.example.order.domain.common.OrderDetail")
+@Entity(name="com.example.common.domain.OrderDetail")
 @Table(name="orders")
 @Access(AccessType.FIELD)
 public class OrderDetail {

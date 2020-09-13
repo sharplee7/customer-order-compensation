@@ -1,5 +1,6 @@
 package com.example.customer.aync;
 
+import com.example.common.domain.OrderDetail;
 import com.example.customer.domain.CustomerCreditLimitExceededException;
 import com.example.customer.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ public class OrderConsumer {
     private CustomerProducer customerProducer;
 
     @KafkaListener(topics = "${order.topic.name}", containerFactory = "orderKafkaListenerContainerFactory")
-    public void orderListener(com.example.customer.domain.common.OrderDetail orderDetail) {
+    public void orderListener(OrderDetail orderDetail) {
         Long orderId=null, customerId=null, orderAmount=null;
         try {
             orderId = orderDetail.getId();

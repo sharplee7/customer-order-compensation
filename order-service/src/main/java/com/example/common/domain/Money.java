@@ -1,4 +1,4 @@
-package com.example.customer.domain.common;
+package com.example.common.domain;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;

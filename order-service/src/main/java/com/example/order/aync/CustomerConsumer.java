@@ -1,13 +1,11 @@
 package com.example.order.aync;
 
 
-import com.example.order.domain.Customer;
-import com.example.order.domain.common.OrderDetail;
-import com.example.order.domain.common.OrderState;
+import com.example.common.domain.OrderDetail;
+import com.example.common.domain.OrderState;
 import com.example.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
-import org.springframework.kafka.support.Acknowledgment;
 import org.springframework.stereotype.Component;
 
 @Component

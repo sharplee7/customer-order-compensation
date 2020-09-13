@@ -1,7 +1,7 @@
 package com.example.order.domain;
 
 
-import com.example.order.domain.common.Money;
+import com.example.common.domain.Money;
 
 import javax.persistence.*;
 import java.util.Collections;

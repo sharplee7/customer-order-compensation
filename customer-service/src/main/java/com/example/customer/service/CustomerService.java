@@ -1,12 +1,11 @@
 package com.example.customer.service;
 
 
-import com.example.customer.aync.CustomerProducer;
+import com.example.common.domain.OrderDetail;
 import com.example.customer.domain.Customer;
-import com.example.customer.domain.CustomerCreditLimitExceededException;
-import com.example.customer.domain.common.Money;
+import com.example.common.domain.Money;
 import com.example.customer.domain.CustomerRepository;
-import com.example.customer.domain.common.OrderDetails;
+import com.example.common.domain.OrderDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 
@@ -41,7 +40,7 @@ public class CustomerService {
    * 포인트 차감
    * @param orderDetail
    */
-  public void reserveCredit(com.example.customer.domain.common.OrderDetail orderDetail) {
+  public void reserveCredit(OrderDetail orderDetail) {
     //Order 서비스에서 받은 OrderDetails 정보 가져오기
     OrderDetails orderDetails = orderDetail.getOrderDetails();
     // orderDetails에 기록된 customerId로 customer 객체를 가져온다.

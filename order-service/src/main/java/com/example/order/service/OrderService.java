@@ -1,13 +1,12 @@
 package com.example.order.service;
 
 import com.example.order.aync.OrderProducer;
-import com.example.order.domain.common.OrderDetail;
+import com.example.common.domain.OrderDetail;
 import com.example.order.domain.OrderRepository;
-import com.example.order.domain.common.OrderDetails;
+import com.example.common.domain.OrderDetails;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 @Transactional
 public class OrderService {

@@ -1,7 +1,7 @@
 package com.example.customer.webapi;
 
 
-import com.example.customer.domain.common.Money;
+import com.example.common.domain.Money;
 
 public class CreateCustomerRequest {
   private String name;
